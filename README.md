@@ -1,4 +1,4 @@
-# VideoDownloader — Desktop Video Downloader  
+# VideoDownloader For Youtube
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python&logoColor=white)](https://www.python.org/)  
 [![GUI](https://img.shields.io/badge/GUI-Eel%20%2B%20HTML%2FCSS%2FJS-3776AB)](https://github.com/python-eel/Eel)  
 [![yt-dlp](https://img.shields.io/badge/Core-yt--dlp-red)](https://github.com/yt-dlp/yt-dlp)  
