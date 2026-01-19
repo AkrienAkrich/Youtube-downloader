@@ -76,4 +76,4 @@ https://www.python.org/downloads/
 ```bash
 git clone https://github.com/USERNAME/VideoDownloader.git
 cd VideoDownloader
-pyinstaller --onefile --windowed --add-data main.py
+python -m eel main.py web --onefile --windowed --noconsole
