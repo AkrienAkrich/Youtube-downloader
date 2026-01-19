@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="title">Video Downloader</div>
+</header>
+
+<main>
+    <div class="card">
+
+        <div class="url-row">
+            <input id="url" type="text" placeholder="Вставьте ссылку на видео">
+            <button class="primary" onclick="fetchFormats()">Получить форматы</button>
+        </div>
+
+        <div class="formats-block">
+            <div class="block-title">Консоль</div>
+            <pre id="console"></pre>
+        </div>
+
+        <input id="format_code" type="text" placeholder="Код формата (например 137)">
+
+        <div class="help">
+            <b>Подсказка по форматам</b><br>
+            audio only — только звук<br>
+            video only — только видео<br>
+            без note — видео со звуком
+        </div>
+
+        <div class="bottom">
+            <div class="dir">
+                <button onclick="chooseDir()">Выбрать директорию</button>
+                <span id="directory">не выбрана</span>
+            </div>
+
+            <button class="download" onclick="download()">Скачать</button>
+        </div>
+
+        <div id="status"></div>
+
+    </div>
+</main>
+
+<script src="/eel.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

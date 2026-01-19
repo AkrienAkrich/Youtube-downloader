@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background: #141423;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 14px 20px;
+    background: #0f0f1a;
+}
+
+.title {
+    font-size: 22px;
+    color: #4da6ff;
+}
+
+main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 900px;
+    background: #1b1b2f;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.url-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background: #2a2a3e;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.primary {
+    background: #4da6ff;
+    border: none;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formats-block {
+    margin-bottom: 24px; /* было 16 или вообще не было */
+}
+
+.block-title {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 6px;
+}
+
+pre {
+    min-height: 220px;
+    background: #0b0b14;
+    border: 1px solid #2f2f4a;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+
+.help {
+    background: #23233a;
+    border-left: 4px solid #4da6ff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download {
+    background: #00cc66;
+    border: none;
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#status {
+    margin-top: 12px;
+    color: #ffcc00;
+}
