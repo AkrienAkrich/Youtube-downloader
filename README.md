@@ -74,6 +74,6 @@ https://www.python.org/downloads/
 ### 2. Clone repository and package it / Клонировать репозиторий и собрать его
 
 ```bash
-git clone https://github.com/USERNAME/VideoDownloader.git
+git clone https://github.com/AkrienAkrich/Youtube-downloader.git
 cd VideoDownloader
 python -m eel main.py web --onefile --windowed --noconsole
